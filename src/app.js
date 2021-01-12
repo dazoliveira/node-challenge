@@ -35,7 +35,6 @@ app.put("/repositories/:id", (request, response) => {
     id,
     url,
     techs
-
   }
   repositories[repositoryIndex] = projectUpdated
   return response.status(200).json(projectUpdated)
